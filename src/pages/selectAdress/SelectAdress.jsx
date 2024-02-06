@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AdressList from "../../components/SelectAdress/adressList/AdressList";
-import cl from "./SelectAdress.module.css"
+import cl from "./SelectAdress.module.css";
 
 const SelectAdress = function () {
 
-
-
+  
     return (
         <div className={cl.block}>
             <h2>Выберите адрес</h2>
